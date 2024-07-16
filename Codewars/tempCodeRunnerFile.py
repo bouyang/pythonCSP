@@ -1,2 +1,4 @@
-  # if digit == '0':
-        #     digit = '10'
+roes_index)
+
+    # print(binary_digits)
+    # print(ones)
