@@ -1,0 +1,13 @@
+def find_senior(list):
+    result = []
+    oldest = list[0]['age']
+    for person in list:
+        if person['age'] > oldest:
+            result = [person]
+            oldest = person['age']
+        elif person['age'] == oldest:
+            result.append(person)
+    return result
+
+
+print(find_senior([{'firstName': 'Umu', 'lastName': 'Jdebfaj', 'country': 'Ewojwzsthz', 'continent': 'Hlvapbg', 'age': 28, 'language': 'Python'}, {'firstName': 'Fcthysckg', 'lastName': 'Xzydcrypgk', 'country': 'Zb', 'continent': 'Uhqrzwhb', 'age': 33, 'language': 'Java'}, {'firstName': 'Plup', 'lastName': 'Nnawdxnd', 'country': 'Owg', 'continent': 'Vzlbc', 'age': 44, 'language': 'Clojure'}, {'firstName': 'Bqph', 'lastName': 'Pzoe', 'country': 'Yo', 'continent': 'Tplga', 'age': 85, 'language': 'PHP'}, {'firstName': 'Kehvytn', 'lastName': 'Letyzehfs', 'country': 'Xlcfvdc', 'continent': 'Iljmzuarw', 'age': 90, 'language': 'Java'}, {'firstName': 'Wcqb', 'lastName': 'Upfktlcrb', 'country': 'Yccvkbtms', 'continent': 'Qhysl', 'age': 32, 'language': 'Python'}, {'firstName': 'Wsowmc', 'lastName': 'Tftjeosh', 'country': 'Slkz', 'continent': 'Yzra', 'age': 23, 'language': 'Ruby'}, {'firstName': 'Mk', 'lastName': 'Ropnjhmrsp', 'country': 'Eq', 'continent': 'Qinqbrw', 'age': 62, 'language': 'Clojure'}, {'firstName': 'Mv', 'lastName': 'Ocfb', 'country': 'Mgeyjknm', 'continent': 'Ag', 'age': 74, 'language': 'Clojure'}, {'firstName': 'Oesjs', 'lastName': 'Ifymttnxr', 'country': 'Pmfsbs', 'continent': 'Vyvlcofb', 'age': 82, 'language': 'C'}, {'firstName': 'Re', 'lastName': 'Zzxinpqih', 'country': 'Tuj', 'continent': 'Mrdmpo', 'age': 79, 'language': 'Ruby'}, {'firstName': 'Xxydkwezn', 'lastName': 'Okkfw', 'country': 'Miy', 'continent': 'D', 'age': 74, 'language': 'Clojure'}, {'firstName': 'Bwjbep', 'lastName': 'Eecf', 'country': 'Exb', 'continent': 'Jr', 'age': 42, 'language': 'C'}, {'firstName': 'Awkgmfl', 'lastName': 'Abpgapxmvb', 'country': 'Tvejdtm', 'continent': 'Jhsg', 'age': 47, 'language': 'Python'}, {'firstName': 'Rfmr', 'lastName': 'Nyjm', 'country': 'Jv', 'continent': 'Djodnppyrb', 'age': 41, 'language': 'Clojure'}, {'firstName': 'A', 'lastName': 'Aaeo', 'country': 'E', 'continent': 'Iuqdacxzv', 'age': 21, 'language': 'Python'}, {'firstName': 'Xect', 'lastName': 'Uktyzdj', 'country': 'Gk', 'continent': 'Hlevxcxed', 'age': 88, 'language': 'Javascript'}, {'firstName': 'Zral', 'lastName': 'Cehbad', 'country': 'Wpjtqh', 'continent': 'R', 'age': 20, 'language': 'C'}]))
